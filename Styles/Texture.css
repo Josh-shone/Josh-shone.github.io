@@ -1,4 +1,4 @@
-body { /*Main body, what te amin page style will be, grid to keep everything consistent*/
+body { /*Main body, what the amin page style will be, grid to keep everything consistent*/
     background-color: #ffffff;
     display: grid;
     grid-template-columns: repeat(12,1fr);
@@ -32,6 +32,16 @@ nav{
 
 article{
     grid-area: article;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+    "BI BI BI BI BI BI"
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    "CI CI CI CI CI CI"
 }
 
 #BasicInfo{
@@ -54,8 +64,12 @@ article{
     grid-area: BI;
 }
 
-#GPLink{
-    grid-area: GP;
+#UNILink{
+    grid-area: UL;
+}
+
+#PERLink{
+    grid-area: PL;
 }
 
 #ContactInfo{
@@ -83,7 +97,6 @@ article{
 #tab1\.2{
     font-size: 2em;
     color: #000000;
-    margin-right: 780px;
     align-content: center;
 }
 
@@ -96,10 +109,20 @@ article{
 #tab2{
     font-size: 2em;
     color: #000000;
-    margin-left: 150px;
+    display: inline-block;
+    align-content: center;
+    margin-right: 200px;    
 }
 
 #tab3{
+    font-size: 2em;
+    color: #000000;
+    display: inline-block;
+    align-content: center;
+    margin-left: 200px;
+}
+
+#tab4{
     font-size: 2em;
     color: #000000;
     display: inline-block;
@@ -108,7 +131,7 @@ article{
     margin-top: 50px;
 }
 
-#tab4{
+#tab5{
     font-size: 2em;
     color: #000000;
     display: inline-block;
