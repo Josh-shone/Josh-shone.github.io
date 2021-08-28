@@ -100,16 +100,9 @@ article{
     align-content: center;
 }
 
-#tab1\.3{
-    font-size: 2em;
-    color: #000000;
-    margin-right: 780px;
-}
-
 #tab2{
     font-size: 2em;
     color: #000000;
-    display: inline-block;
     align-content: center;
     margin-right: 200px;    
 }
@@ -117,7 +110,6 @@ article{
 #tab3{
     font-size: 2em;
     color: #000000;
-    display: inline-block;
     align-content: center;
     margin-left: 200px;
 }
