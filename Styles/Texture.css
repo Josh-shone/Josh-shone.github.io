@@ -103,13 +103,15 @@ article{
 #tab2{
     font-size: 2em;
     color: #000000;
-    align-content: center;   
+    align-content: center;
+    margin-right: 200px;    
 }
 
 #tab3{
     font-size: 2em;
     color: #000000;
     align-content: center;
+    margin-left: 200px;
 }
 
 #tab4{
